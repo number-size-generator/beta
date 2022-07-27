@@ -1,0 +1,29 @@
+let myName = "Lucas";
+//variable
+console.log(myName)
+
+myName = "Caren"
+  
+console.log(myName)
+
+let bananas = 4
+
+console.log(bananas)
+//mynumber is a number between 1-100
+let myNumber = prompt("Input a number between 1-100")
+
+console.log (myName + bananas)
+
+
+if(myNumber <= 33){
+  console.log(myNumber + "is a small number.")
+
+
+}else if(myNumber <=66){
+  console.log(myNumber + "is a medium number.")
+}else if(myNumber <= 100){
+  console.log(myNumber + "is a big number.")
+}else {
+  console.log("I only take numbers between 1-100")
+}
+//prompt gives a prompt and asks for a response
